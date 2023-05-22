@@ -24,7 +24,7 @@ a != b = ${a != b}
 a > b = ${a > b}
 a < b = ${a < b}
 !a && !c = ${!a && !c}
-!a || !c = ${!a || !c}\
+!a || !c = ${!a || !c}
 `;
 
 alert(output);

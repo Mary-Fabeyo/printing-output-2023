@@ -72,4 +72,4 @@ console.log(experiment);
 
 
 //Alert output.
-alert(`My name is ${first_name} ${last_name}. You can contact me at ${email}.`); // prints Hello there!
+alert(`My name is ${first_name} ${last_name}. You can contact me at ${email}.`); // prints My name is Mary Fabeyo. You can contact me at fabe0015@algonquinlive.com.

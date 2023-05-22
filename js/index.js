@@ -62,14 +62,14 @@ let email = "fabe0015@algonquinlive.com";
 let experiment;
 
 //Create the expression concatenating variables first_name, last_name, email and string literals needed to complete the sentence reading: "My name is Your-first-name Your-last-name. You can contact me at your-email@mail.com.";
- experiment ="my name is" + " " + first_name + " " + last_name + "You can contact me at" + email + ".";
+ experiment ="My name is" + " " + first_name + " " + last_name + " " + "You can contact me at" + " " + email + ".";
  console.log(experiment);
 
 
 //Assign output with gotten expression;
-experiment = `my name is ${first_name} ${last_name}. You can contact me at ${email}.`;
+experiment = `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
 console.log(experiment);
 
 
 //Alert output.
-alert(`my name is ${first_name} ${last_name}. You can contact me at ${email}.`); // prints Hello there!
+alert(`My name is ${first_name} ${last_name}. You can contact me at ${email}.`); // prints Hello there!
